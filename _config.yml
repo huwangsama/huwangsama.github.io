@@ -1,7 +1,7 @@
 # Site settings
 title: Huwangsama Blog
 SEOTitle: huwang的博客 | HW Blog
-header-img: img/post-bg-desk.jpg
+header-img: img/Sorey.(Tales.of.Zestiria).full.2120476.png
 email: huwangsama@gmail.com
 description: "忘れない限り 夢は終わらない"
 keyword: "My Blog, 僕のブロッグ"
@@ -12,7 +12,7 @@ github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "終わらせる！来たれ神雷！俺の全てで、悪しきを断ち切る！秘剣！烈震迅雷牙！"
-sidebar-avatar: /img/Sorey.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/Sorey.(Tales.of.Zestiria).full.2407390.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
