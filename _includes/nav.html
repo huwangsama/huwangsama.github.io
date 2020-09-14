@@ -24,14 +24,12 @@
                         <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                     </li>
                     {% endif %}{% endfor %}
-                    <!--
+                    
+                    {% for title in site.toplinks %}{% if title.name %}
                     <li>
-                        <a href="https://space.bilibili.com/">Bili Space</a>
+                        <a href="{{ title.url }}">{{ title.name }}</a>
                     </li>
-                    <li>
-                        <a href="https://huwangsama.github.io/onedrive">Drive</a>
-                    </li>
-                    -->
+                    {% endif %}{% endfor %}
                 </ul>
             </div>
         </div>
