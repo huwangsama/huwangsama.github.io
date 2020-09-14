@@ -98,18 +98,21 @@ header-img: "img/kiri.jpg"
             $select.selectedIndex = 1;
             $en.style.display = "block";
             $zh.style.display = "none";
+            $ja.style.display = "none";
         // zh by default
         }
         if(_hash == "#ja"){
             // not trigger onChange, otherwise cause a loop call.
             $select.selectedIndex = 2;
-            $zh.style.display = "block";
+            $zh.style.display = "none";
             $en.style.display = "none";
+            $ja.style.display = "block";
         }if(_hash == "#zh"){
             // not trigger onChange, otherwise cause a loop call.
             $select.selectedIndex = 0;
             $zh.style.display = "block";
             $en.style.display = "none";
+            $ja.style.display = "none";
         }
     }
 
