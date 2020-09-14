@@ -2,27 +2,28 @@
 layout: page
 title: "About"
 description: "Hey, this is BY."
-header-img: "img/post-bg-rwd.jpg"
+header-img: "img/kiri.jpg"
 ---
 
 <!-- Language Selector -->
-<!-- <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+<select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
     <option value="0" selected> 中文 Chinese </option>
     <option value="1"> 英文 English </option>
-</select> -->
+    <option value="2"> 日本語 Japanese </option>
+</select>
 
 <!-- Chinese Version -->
 <div class="zh post-container">
 
     <!--copied from markdown -->
-    <blockquote><p>冰冻三尺 非一日之寒<br>
-    积土成山 非斯须之作</p></blockquote>
+    <blockquote><p>我是huwangsama<br>
+    以牙還牙　加倍俸還</p></blockquote>
 
-    <p>Hey，我是<strong>柏荧(BY)</strong>，一只iOS程序猿，现在厦门工作。</p>
+    <p>哟，吾辈是<strong>huwangsama(Kaku)</strong>，一只二次元的住民，现在是研究生。</p>
 
-    <p>工作、学习之余，我还是一个健身爱好者，同时也非常喜欢拳击。</p>
+    <p>娱乐、研究之余，我还是一个二次元爱好者，同时也非常喜欢音乐。</p>
 
-    <p>这是我的利用 <a href="https://pages.github.com/">GitHub Pages</a> 与 <a href="http://jekyll.com.cn/">Jekyll</a> 搭建的 个人博客。我在GitHub主页<a href="https://github.com/qiubaiying">👉GitHub·BY</a> 与 简书主页<a href="https://http://www.jianshu.com/u/e71990ada2fd">👉BY</a>。如果有什么问题，欢迎提出探讨~</p>
+    <p>这是我的利用 <a href="https://pages.github.com/">GitHub Pages</a> 与 <a href="http://jekyll.com.cn/">Jekyll</a> 搭建的 个人博客。我在GitHub主页<a href="https://github.com/huwangsama">👉GitHub·BY</a> 与 简书主页<a href="https://http://www.jianshu.com/u/e71990ada2fd">👉BY</a>。如果有什么问题，欢迎提出探讨~</p>
 
     <p></p>
     
@@ -31,21 +32,21 @@ header-img: "img/post-bg-rwd.jpg"
     <ul>
         <li><a href="https://github.com">GitHub</a></li>
         <li><a href="http://jekyll.com.cn/">jekyll</a></li>
-        <li><a href="http://huangxuan.me/">Hux</a></li> 
+        <li><a href="http://huwangsama.github.io/">huwangsama</a></li> 
         <li><a href="https://analytics.google.com/analytics">Google Analytics</a></li>
     </ul>
 </div>
 
 <!-- English Version -->
-<!-- <div class="en post-container">
-    <blockquote><p>Yet another iOS Developer. <br>
-    Yet another Life-long Student.</p></blockquote>
+<div class="en post-container">
+    <blockquote><p>I am huwangsama <br>
+    If your enemies hurt you, take double the payback. </p></blockquote>
 
-    <p>Hi, I am <strong>Baiying Qiu</strong>，you can call me <strong>BY</strong>. I am an iOS software engineer and currently working in Xiamen</p>
+    <p>Hi, I am <strong>huwangsama(Kaku)</strong>，you can call me <strong>Huwang</strong>. I am a post-graduated student and currently living in Animation World</p>
 
-    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/qiubaiying">Github·BY</a>.</p>
+    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/huwangsama">Github·huwangsama</a>.</p>
     
-    <p>I am a sports enthusiast, I like fitness, running and boxing.</p>
+    <p>I am a animation enthusiast, I like animation, comic and game.</p>
 
     <h5>Talks</h5>
 
@@ -53,15 +54,37 @@ header-img: "img/post-bg-rwd.jpg"
     <li><a href="https://github.com">GitHub</a></li>
     <li><a href="http://jekyll.com.cn/">jekyll</a></li>
     <li><a href="https://pages.github.com/">GitHub Pages</a></li>
-    <li><a href="https://qiubaiying.github.io">BY</a></li>
+    <li><a href="https://huwangsama.github.io">huwangsama</a></li>
     </ul>
-</div> -->
+</div>
+
+<!-- Japanese Version -->
+<div class="ja post-container">
+    <blockquote><p>我輩はhuwangsamaである. <br>
+    やられたらやり返す　倍返しだ.</p></blockquote>
+
+    <p>こんにちは, 我輩は <strong>huwangsama(Kaku)である</strong>， <strong>とらおう</strong>とよべばいい. 二次元の住民であり、研究者でもある</p>
+
+    <p>これは個人用のブロッグ, Github Pages and Jekyllをもって作り出した.My GitHub  👉 <a href="http://github.com/huwangsama">Github·huwangsama</a>.</p>
+    
+    <p>アニメ大好き, 趣味は animation, comic, gameである.</p>
+
+    <h5>Talks</h5>
+
+    <ul>
+    <li><a href="https://github.com">GitHub</a></li>
+    <li><a href="http://jekyll.com.cn/">jekyll</a></li>
+    <li><a href="https://pages.github.com/">GitHub Pages</a></li>
+    <li><a href="https://huwangsama.github.io">huwangsama</a></li>
+    </ul>
+</div>
 
 <!-- Handle Language Change -->
 <script type="text/javascript">
     // get nodes
     var $zh = document.querySelector(".zh");
     var $en = document.querySelector(".en");
+    var $ja = document.querySelector(".ja");
     var $select = document.querySelector("select");
 
     // bind hashchange event
@@ -76,7 +99,12 @@ header-img: "img/post-bg-rwd.jpg"
             $en.style.display = "block";
             $zh.style.display = "none";
         // zh by default
-        }else{
+        }else if(_hash == "#ja"){
+            // not trigger onChange, otherwise cause a loop call.
+            $select.selectedIndex = 2;
+            $zh.style.display = "block";
+            $en.style.display = "none";
+        }else {
             // not trigger onChange, otherwise cause a loop call.
             $select.selectedIndex = 0;
             $zh.style.display = "block";
@@ -88,8 +116,10 @@ header-img: "img/post-bg-rwd.jpg"
     function onLanChange(index){
         if(index == 0){
             window.location.hash = "#zh"
-        }else{
+        }else if(index == 1){
             window.location.hash = "#en"
+        }else{
+            window.location.hash = "#ja"
         }
     }
 
