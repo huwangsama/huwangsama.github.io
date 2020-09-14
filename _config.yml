@@ -94,7 +94,14 @@ featured-condition-size: 1              # 相同标签数量大于这个数，�
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-
+# TopLinks
+toplinks:
+  -  name: Bili Space
+     url: https://space.bilibili.com/747235
+     external: true
+  -  name: Drive
+     url: https://huwangsama.github.io/onedrive
+     external: true
 
 # Friends
 friends: [
