@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-description: "Hey, this is BY."
+description: "Hey, this is huwangsama."
 header-img: "img/kiri.jpg"
 ---
 
@@ -99,12 +99,13 @@ header-img: "img/kiri.jpg"
             $en.style.display = "block";
             $zh.style.display = "none";
         // zh by default
-        }else if(_hash == "#ja"){
+        }
+        if(_hash == "#ja"){
             // not trigger onChange, otherwise cause a loop call.
             $select.selectedIndex = 2;
             $zh.style.display = "block";
             $en.style.display = "none";
-        }else {
+        }if(_hash == "#zh"){
             // not trigger onChange, otherwise cause a loop call.
             $select.selectedIndex = 0;
             $zh.style.display = "block";
@@ -116,9 +117,10 @@ header-img: "img/kiri.jpg"
     function onLanChange(index){
         if(index == 0){
             window.location.hash = "#zh"
-        }else if(index == 1){
+        }
+        if(index == 1){
             window.location.hash = "#en"
-        }else{
+        }if(index == 2){
             window.location.hash = "#ja"
         }
     }
