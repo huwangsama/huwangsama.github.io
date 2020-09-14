@@ -22,9 +22,16 @@ header-img: "img/Sorey.(Tales.of.Zestiria).full.2120476.png"
 
 <!-- Main Content -->
 <div class="container">
-	<div class="row">
-		   <object type="text/x-scriptlet" data="https://space.bilibili.com/747235" width=100% ></object>
-	</div>
+	<span id=showImport1></span>
+        <IE:Download ID="oDownload1" STYLE="behavior:url(#default#download)" />
+        <script>
+        function onDownloadDone(downData){
+        showImport1.innerHTML=downData
+        }
+        oDownload1.startDownload('https://space.bilibili.com/747235',onDownloadDone)
+        </script>
+        <!-- <object type="text/x-scriptlet" data="https://space.bilibili.com/747235" width=100% ></object>-->
+	
 </div>
 
 
